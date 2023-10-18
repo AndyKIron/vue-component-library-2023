@@ -1,11 +1,9 @@
 <script setup lang="ts">
-// import FccButton from './components/FccButton.vue'
-import { FccButton } from 'test-component-lib'
-import "test-component-lib/style.css"
+import FccButton from './components/button/v4/FccButton.vue'
 </script>
 
 <template>
-  <FccButton text="Run the Tests" />
+  <FccButton text="Button v1" />
 </template>
 
 <style scoped>
